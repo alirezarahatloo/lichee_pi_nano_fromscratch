@@ -30,6 +30,9 @@ When it asked for the first partition, type in 2048. Press enter, and enter agai
 
 ## KEREL
 1-git clone -b nano-5.2-tf --depth 1 https://github.com/Lichee -Pi/linux.git
+
 2-source ./licheepi.sh
+
 3-make licheepi_nano_defconfig
+
 4-
