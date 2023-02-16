@@ -36,3 +36,11 @@ When it asked for the first partition, type in 2048. Press enter, and enter agai
 3-make licheepi_nano_defconfig
 
 4-
+
+
+## boot.src
+
+1-convert boot.cmd to boot.src with below command
+
+$ mkimage -C none -A arm -T script -d boot.cmd boot.scr
+
