@@ -58,15 +58,23 @@ make menuconfig
 
 * ----> settings -----> build static binary (no shared libs)
 * ----> settings -----> Destination Path for 'make install'
+* 
 export CROSS_COMPILE=
+
 export PATH=
+
 make 
+
 make install 
+
 copy bincsbin usr directory and linuxrc in sd card.
+
 mkdir proc in  mmcblk0p1 
+
 mkdir sys  in  mmcblk0p1
 
 Put the SD in lichee pi nano and wait.
+
 when you reach command line linux you must run below command:
 
 mount -t proc  nodev /proc/
