@@ -78,9 +78,13 @@ Put the SD in lichee pi nano and wait.
 
 when you reach command line linux you must run below command:
 
-mount -t proc  nodev /proc/
+1-mount -t proc  nodev /proc/
 
-mount -t sysfs nodev /sys/
+2-mount -t sysfs nodev /sys/
+
+3-mount -o remount,rw / 
+
+we can create /etc/init.d/rcS and add 1,2,3 and chmod +x rcS
 
 
 
