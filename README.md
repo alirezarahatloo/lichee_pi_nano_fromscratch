@@ -57,6 +57,7 @@ make defconfig
 make menuconfig
 
 star ----> settings -----> build static binary (no shared libs)
+
 star ----> settings -----> Destination Path for 'make install'
 
 export CROSS_COMPILE=
